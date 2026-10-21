@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Guard</string>
+    <string name="app_name_en">App Guard</string>
+    <string name="app_title_full">App Guard — حارس التطبيقات</string>
+    <string name="app_subtitle">Professional App Lock &amp; Privacy Shield</string>
+    <string name="dev_name">Developed by Eng. Faisal Al-Afif</string>
+    
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">App Guard uses Accessibility Service to detect foreground apps and enforce instant PIN/Biometric protection.</string>
+    
+    <!-- Tabs & Nav -->
+    <string name="tab_apps">Apps</string>
+    <string name="tab_profiles">Profiles</string>
+    <string name="tab_schedules">Schedules</string>
+    <string name="tab_security">Security &amp; Settings</string>
+    <string name="tab_diagnostics">Diagnostics &amp; Test</string>
+    <string name="nav_apps">Apps</string>
+    <string name="nav_profiles">Profiles</string>
+    <string name="nav_schedules">Schedules</string>
+    <string name="nav_diagnostics">Diagnostics</string>
+    <string name="nav_settings">Security</string>
+    <string name="nav_self_test">Self Test</string>
+
+    <!-- Dashboard Status -->
+    <string name="protection_active">Protection Active</string>
+    <string name="protection_disabled">Protection Disabled</string>
+    <string name="protection_active_desc">All locking rules are enforced</string>
+    <string name="protection_disabled_desc">Warning: Accessibility service is required</string>
+    <string name="locked_apps_count">%1$d apps locked</string>
+    <string name="active_profile_label">Active Profile: %1$s</string>
+    <string name="no_active_profile">Default Mode</string>
+
+    <!-- Bulk Actions -->
+    <string name="action_select_all">Select All</string>
+    <string name="action_deselect_all">Deselect All</string>
+    <string name="action_lock_selected">Lock Selected</string>
+    <string name="action_unlock_selected">Unlock Selected</string>
+    <string name="action_lock_all">Lock All</string>
+    <string name="action_unlock_all">Unlock All</string>
+
+    <!-- Filters & Search -->
+    <string name="search_apps_hint">Search apps...</string>
+    <string name="filter_all">All (%1$d)</string>
+    <string name="filter_locked">Locked (%1$d)</string>
+    <string name="filter_unlocked">Unlocked (%1$d)</string>
+    <string name="filter_system">System (%1$d)</string>
+
+    <!-- Lock Overlay Screen -->
+    <string name="lock_screen_title">App is Locked</string>
+    <string name="lock_screen_enter_pin">Enter PIN to unlock</string>
+    <string name="lock_screen_biometric_prompt">Biometric Authentication</string>
+    <string name="lock_screen_biometric_subtitle">Use fingerprint or face unlock</string>
+    <string name="lock_screen_wrong_pin">Incorrect PIN</string>
+    <string name="lock_screen_cooldown">Please wait %1$d seconds before trying again</string>
+    <string name="lock_screen_shuffle_notice">Shuffle Keypad is ON</string>
+
+    <!-- Crash Screen Fake -->
+    <string name="crash_screen_message">Unfortunately, the app has stopped working.</string>
+    <string name="crash_screen_report">Report</string>
+    <string name="crash_screen_close">Close</string>
+
+    <!-- Security & Settings -->
+    <string name="settings_section_general">General Settings</string>
+    <string name="settings_language_title">App Language</string>
+    <string name="settings_language_desc">Choose your preferred interface language</string>
+    <string name="settings_section_security">Security Settings</string>
+    <string name="settings_set_pin">Set PIN</string>
+    <string name="settings_change_pin">Change PIN</string>
+    <string name="settings_biometric">Biometric Authentication</string>
+    <string name="settings_biometric_desc">Use BiometricPrompt to unlock quickly</string>
+    <string name="settings_shuffle_pin">Shuffle PIN Pad</string>
+    <string name="settings_shuffle_pin_desc">Randomize keypad numbers to prevent shoulder surfing</string>
+    
+    <string name="settings_section_relock">Relock Method</string>
+    <string name="settings_protect_self">Protect App Guard Itself</string>
+    <string name="settings_protect_self_desc">Require PIN or Biometric when opening App Guard to prevent tampering</string>
+    <string name="relock_mode_title">Relock Method</string>
+    <string name="relock_mode_unlock_once">Unlock Once</string>
+    <string name="relock_mode_unlock_once_desc">Remains unlocked while in app, relocks upon exit to Home or another app</string>
+    <string name="relock_mode_timeout">After Timeout</string>
+    <string name="relock_mode_timeout_desc">Remains unlocked for the selected duration after authentication</string>
+    <string name="relock_mode_open_count">Lock after N Opens</string>
+    <string name="relock_mode_open_count_desc">Allows entering the app for a set number of separate entries</string>
+    <string name="relock_mode_screen_off">Lock after Screen Off</string>
+    <string name="relock_mode_screen_off_desc">App remains unlocked indefinitely, only relocking when the screen turns off</string>
+    <string name="custom_option">Custom</string>
+    <string name="custom_open_count_label">Custom Open Count</string>
+    <string name="custom_timeout_label">Custom Duration</string>
+    <string name="minutes_label">Minutes</string>
+    <string name="hours_label">Hours</string>
+    <string name="settings_recent_apps_policy">Recent Apps Lock Policy</string>
+    <string name="settings_recent_apps_policy_follow">Follow the lock choices above like a locked app</string>
+    <string name="settings_recent_apps_policy_always">Always active (requires authentication every time)</string>
+    <string name="settings_timeout">Auto-Relock Timeout</string>
+    <string name="settings_screen_off_relock">Relock on Screen Off</string>
+    <string name="settings_screen_off_relock_desc">Cancel all temporary unlock sessions immediately when screen turns off</string>
+    <string name="settings_open_count">Allowed Open Count Limit</string>
+    <string name="settings_keyboard_lock_title">Keyboard Lock Behavior</string>
+    <string name="settings_keyboard_lock_desc">Customize protection behavior for virtual keyboards and input methods</string>
+    <string name="settings_keyboard_lock_follow">Follows re-lock settings</string>
+    <string name="settings_keyboard_lock_always_unlocked">Always unlocked (Highly Recommended)</string>
+
+    <string name="settings_section_recent">Recent Apps Lock</string>
+    <string name="settings_recent_lock">Lock Recent / Overview</string>
+    <string name="settings_recent_lock_desc">Protect Recent Apps button from revealing task previews</string>
+
+    <string name="settings_section_notifications">Notifications Protection</string>
+    <string name="settings_notification_hiding">Hide Protected App Notifications</string>
+    <string name="settings_notification_hiding_desc">Control hiding protected apps notifications from the status bar and vault storage</string>
+    <string name="settings_notif_mode_title">Notification Hiding Mode</string>
+    <string name="settings_notif_mode_relock">Follows Screen Re-lock Rules</string>
+    <string name="settings_notif_mode_relock_desc">Notifications are hidden when app is locked, and shown normally when unlocked and in use</string>
+    <string name="settings_notif_mode_always_active">Always Active</string>
+    <string name="settings_notif_mode_always_active_desc">Continuous hiding of all notifications and secretly routing them to the vault</string>
+    <string name="settings_notif_mode_always_off">Always Off / Disabled</string>
+    <string name="settings_notif_mode_always_off_desc">Display all notifications in the status bar normally without filtering</string>
+    <string name="settings_notification_vault">Hidden Notifications Vault (%1$d)</string>
+    <string name="settings_notification_permission_prompt">Notification Access permission is required to hide and store protected notifications securely.</string>
+    <string name="settings_protect_settings_app">Protect System Settings &amp; Package Installer</string>
+    <string name="settings_protect_settings_app_desc">Prevent force stopping or uninstalling by locking System Settings and Package Manager</string>
+
+    <string name="nav_hidden_notifications">Hidden Notifications</string>
+    <string name="hidden_notifications_title">Hidden Notifications Vault</string>
+    <string name="hidden_notifications_empty_title">No hidden notifications yet</string>
+    <string name="hidden_notifications_empty_desc">When a locked app receives a notification, it will be intercepted and securely stored here.</string>
+    <string name="hidden_notifications_clear_all">Clear All Notifications</string>
+    <string name="hidden_notifications_clear_confirm">Are you sure you want to permanently clear all hidden notification records?</string>
+    <string name="hidden_notifications_search_hint">Search hidden notifications...</string>
+
+    <string name="settings_section_advanced">Advanced &amp; Defense</string>
+    <string name="settings_auto_lock_new">Auto-Lock Newly Installed Apps</string>
+    <string name="settings_auto_lock_new_desc">Automatically protect newly installed apps</string>
+    <string name="settings_anti_uninstall">Anti-Uninstall Protection</string>
+    <string name="settings_anti_uninstall_desc">Activate Device Administrator to prevent accidental removal</string>
+    <string name="settings_crash_screen">Crash Screen Mode</string>
+    <string name="settings_crash_screen_desc">Display simulated crash dialog before lock screen</string>
+    <string name="settings_intruder">Intruder Detection &amp; Snapshot</string>
+    <string name="settings_intruder_desc">Log incorrect PIN attempts and take front camera selfie</string>
+    <string name="settings_intruder_logs">Intruder Logs (%1$d)</string>
+
+    <!-- Profiles -->
+    <string name="profiles_title">Protection Profiles</string>
+    <string name="profiles_desc">Custom app groups for different times and contexts</string>
+    <string name="profile_home">🏠 Home</string>
+    <string name="profile_work">💼 Work</string>
+    <string name="profile_study">📚 Study</string>
+    <string name="profile_sleep">🌙 Sleep</string>
+    <string name="profile_gaming">🎮 Gaming</string>
+    <string name="action_create_profile">Create New Profile</string>
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="action_delete_profile">Delete Profile</string>
+    <string name="action_duplicate_profile">Duplicate Profile</string>
+    <string name="action_add_shortcut">Add to Home Screen</string>
+    <string name="shortcut_created_toast">Shortcut request sent to Home Screen</string>
+    <string name="shortcut_not_supported">Home Screen launcher does not support pinned shortcuts</string>
+    <string name="profile_activated_toast">Profile %1$s activated successfully</string>
+    <string name="shortcut_activate_label">Activate %1$s</string>
+    <string name="action_activate">Activate</string>
+    <string name="action_deactivate">Deactivate</string>
+    <string name="status_active">Active</string>
+    <string name="status_inactive">Inactive</string>
+
+    <!-- Schedules -->
+    <string name="schedules_title">Auto-Lock Schedules</string>
+    <string name="schedules_desc">Toggle locks or activate profiles automatically based on time and days</string>
+    <string name="action_add_schedule">Add Schedule</string>
+    <string name="schedule_every_day">Every Day</string>
+    <string name="schedule_weekdays">Weekdays (Sun - Thu)</string>
+    <string name="schedule_weekend">Weekend (Fri - Sat)</string>
+    <string name="schedule_custom_days">Custom Days</string>
+    <string name="schedule_overnight_badge">Overnight</string>
+
+    <!-- Diagnostics & Self Test -->
+    <string name="diagnostics_title">System Diagnostics &amp; Engine Status</string>
+    <string name="self_test_title">Comprehensive Self Test</string>
+    <string name="run_self_test">Run Comprehensive Self Test</string>
+    <string name="test_result_pass">PASS</string>
+    <string name="test_result_fail">FAIL</string>
+
+    <!-- Common Dialogs / Actions -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="enable">Enable</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_accessibility_prompt">Please enable App Guard in Accessibility Settings for instant locking.</string>
+    <string name="permission_usage_prompt">Please grant Usage Access as a secondary verification channel.</string>
+    <string name="permission_overlay_prompt">Please grant Draw Over Other Apps permission to display the lock screen.</string>
+    <string name="open_settings">Open Settings</string>
+</resources>

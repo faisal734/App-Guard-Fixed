@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حارس التطبيقات</string>
+    <string name="app_name_en">App Guard</string>
+    <string name="app_title_full">حارس التطبيقات — APP GUARD</string>
+    <string name="app_subtitle">تطبيق قفل التطبيقات الاحترافي</string>
+    <string name="dev_name">تطوير م/ فيصل العفيف</string>
+    
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">يقوم حارس التطبيقات برصد التطبيقات التي يتم فتحها لحمايتها فورياً برمز PIN أو البصمة ومنع الوصول غير المصرح به.</string>
+    
+    <!-- Tabs & Nav -->
+    <string name="tab_apps">التطبيقات</string>
+    <string name="tab_profiles">الملفات الشخصية</string>
+    <string name="tab_schedules">الجداول</string>
+    <string name="tab_security">الأمان والإعدادات</string>
+    <string name="tab_diagnostics">التشخيص والفحص</string>
+    <string name="nav_apps">التطبيقات</string>
+    <string name="nav_profiles">الملفات الشخصية</string>
+    <string name="nav_schedules">الجداول</string>
+    <string name="nav_diagnostics">التشخيص</string>
+    <string name="nav_settings">الأمان</string>
+    <string name="nav_self_test">الفحص الذاتي</string>
+
+    <!-- Dashboard Status -->
+    <string name="protection_active">الحماية مفعّلة</string>
+    <string name="protection_disabled">الحماية متوقفة</string>
+    <string name="protection_active_desc">جميع قواعد القفل تعمل بنجاح</string>
+    <string name="protection_disabled_desc">تنبيه: يلزم تفعيل صلاحية إمكانية الوصول</string>
+    <string name="locked_apps_count">%1$d تطبيق مقفل</string>
+    <string name="active_profile_label">الملف النشط: %1$s</string>
+    <string name="no_active_profile">الوضع الافتراضي</string>
+
+    <!-- Bulk Actions -->
+    <string name="action_select_all">تحديد الكل</string>
+    <string name="action_deselect_all">إلغاء تحديد الكل</string>
+    <string name="action_lock_selected">قفل المحدد</string>
+    <string name="action_unlock_selected">فتح المحدد</string>
+    <string name="action_lock_all">قفل الكل</string>
+    <string name="action_unlock_all">فتح الكل</string>
+
+    <!-- Filters & Search -->
+    <string name="search_apps_hint">بحث في التطبيقات...</string>
+    <string name="filter_all">الكل (%1$d)</string>
+    <string name="filter_locked">المقفلة (%1$d)</string>
+    <string name="filter_unlocked">المفتوحة (%1$d)</string>
+    <string name="filter_system">النظام (%1$d)</string>
+
+    <!-- Lock Overlay Screen -->
+    <string name="lock_screen_title">التطبيق مقفل</string>
+    <string name="lock_screen_enter_pin">أدخل رمز PIN لفتح التطبيق</string>
+    <string name="lock_screen_biometric_prompt">المصادقة البيومترية</string>
+    <string name="lock_screen_biometric_subtitle">استخدم البصمة أو الوجه لفتح القفل</string>
+    <string name="lock_screen_wrong_pin">رمز PIN غير صحيح</string>
+    <string name="lock_screen_cooldown">يرجى الانتظار %1$d ثانية قبل المحاولة مرة أخرى</string>
+    <string name="lock_screen_shuffle_notice">لوحة أرقام عشوائية مفعلة</string>
+
+    <!-- Crash Screen Fake -->
+    <string name="crash_screen_message">للأسف، توقف التطبيق عن العمل.</string>
+    <string name="crash_screen_report">إرسال تقرير</string>
+    <string name="crash_screen_close">إغلاق</string>
+
+    <!-- Security & Settings -->
+    <string name="settings_section_general">الإعدادات العامة</string>
+    <string name="settings_language_title">لغة التطبيق (Language)</string>
+    <string name="settings_language_desc">اختر لغة واجهة التطبيق المفضلة</string>
+    <string name="settings_section_security">إعدادات الأمان</string>
+    <string name="settings_set_pin">تعيين رمز PIN</string>
+    <string name="settings_change_pin">تغيير رمز PIN</string>
+    <string name="settings_biometric">المصادقة بالبصمة / الوجه</string>
+    <string name="settings_biometric_desc">استخدام BiometricPrompt لفتح التطبيقات سريعاً</string>
+    <string name="settings_shuffle_pin">خلط لوحة أرقام PIN</string>
+    <string name="settings_shuffle_pin_desc">تغيير مواقع الأرقام عشوائياً لمنع التلصص</string>
+    
+    <string name="settings_section_relock">طريقة إعادة القفل</string>
+    <string name="settings_protect_self">حماية حارس التطبيقات نفسه</string>
+    <string name="settings_protect_self_desc">طلب رمز PIN أو البصمة عند فتح تطبيق حارس التطبيقات لمنع تعديل الإعدادات</string>
+    <string name="relock_mode_title">طريقة إعادة القفل</string>
+    <string name="relock_mode_unlock_once">فتح مرة واحدة</string>
+    <string name="relock_mode_unlock_once_desc">يبقى التطبيق مفتوحاً طالما أنت داخله، ويعاد قفله عند الخروج للشاشة الرئيسية أو تطبيق آخر</string>
+    <string name="relock_mode_timeout">بعد مدة محددة</string>
+    <string name="relock_mode_timeout_desc">يبقى التطبيق مفتوحاً للمدة الزمنية المحددة بعد المصادقة</string>
+    <string name="relock_mode_open_count">القفل بعد عدة مرات</string>
+    <string name="relock_mode_open_count_desc">يسمح بالدخول للتطبيق لعدد مرات دخول حقيقية محددة</string>
+    <string name="relock_mode_screen_off">القفل بعد انطفاء الشاشة</string>
+    <string name="relock_mode_screen_off_desc">يبقى التطبيق مفتوحاً دائماً وبدون أي مهلة زمنية، ولا يتم قفله إلا عند إطفاء الشاشة</string>
+    <string name="custom_option">مخصص</string>
+    <string name="custom_open_count_label">عدد المرات المخصصة</string>
+    <string name="custom_timeout_label">المدة الزمنية المخصصة</string>
+    <string name="minutes_label">دقائق</string>
+    <string name="hours_label">ساعات</string>
+    <string name="settings_recent_apps_policy">سياسة قفل التطبيقات الحديثة</string>
+    <string name="settings_recent_apps_policy_follow">تتبع الاختيارات التي في الأعلى كأنه تطبيق مقفل</string>
+    <string name="settings_recent_apps_policy_always">مفعلة دائماً (تتطلب المصادقة في كل مرة)</string>
+    <string name="settings_timeout">مهلة إعادة القفل التلقائي</string>
+    <string name="settings_screen_off_relock">إعادة القفل عند إطفاء الشاشة</string>
+    <string name="settings_screen_off_relock_desc">إلغاء جميع جلسات الفتح المؤقت فور إطفاء الشاشة</string>
+    <string name="settings_open_count">عدد مرات الفتح المسموح بها</string>
+    <string name="settings_keyboard_lock_title">قفل لوحة المفاتيح</string>
+    <string name="settings_keyboard_lock_desc">تخصيص سلوك الحماية وقفل لوحات المفاتيح والمدخلات</string>
+    <string name="settings_keyboard_lock_follow">يتبع ميزات إعادة القفل</string>
+    <string name="settings_keyboard_lock_always_unlocked">مفتوح دائماً (سلس للغاية)</string>
+
+    <string name="settings_section_recent">قفل التطبيقات الحديثة (Recent Apps)</string>
+    <string name="settings_recent_lock">قفل شاشة Recent / Overview</string>
+    <string name="settings_recent_lock_desc">حماية زر التطبيقات الحديثة لمنع رؤية المعاينات</string>
+
+    <string name="settings_section_notifications">حماية وإخفاء الإشعارات</string>
+    <string name="settings_notification_hiding">إخفاء إشعارات التطبيقات المحمية</string>
+    <string name="settings_notification_hiding_desc">التحكم في حجب إشعارات التطبيقات المقفلة من شريط الحالة وحفظها في الخزنة</string>
+    <string name="settings_notif_mode_title">وضع إخفاء الإشعارات</string>
+    <string name="settings_notif_mode_relock">يتبع خيارات إعادة قفل الشاشة</string>
+    <string name="settings_notif_mode_relock_desc">تُحجب الإشعارات عندما يكون التطبيق مقفلاً، وتظهر طبيعياً عند إلغاء قفله واستخدامه</string>
+    <string name="settings_notif_mode_always_active">مفعل دائماً</string>
+    <string name="settings_notif_mode_always_active_desc">حجب مستمر لكافة الإشعارات طوال الوقت وتحويلها سراً إلى الخزنة فقط</string>
+    <string name="settings_notif_mode_always_off">مقفل دائماً / معطل</string>
+    <string name="settings_notif_mode_always_off_desc">عرض جميع الإشعارات في شريط الحالة كالمعتاد بدون أي حجب</string>
+    <string name="settings_notification_vault">سجل وخزنة الإشعارات المخفية (%1$d)</string>
+    <string name="settings_notification_permission_prompt">يلزم منح صلاحية الوصول للإشعارات لتتمكن الخدمة من إخفاء وحفظ إشعارات التطبيقات المحمية.</string>
+    <string name="settings_protect_settings_app">حماية إعدادات النظام ومدير التثبيت</string>
+    <string name="settings_protect_settings_app_desc">منع إيقاف التطبيق إجبارياً أو إزالته عن طريق قفل تطبيق إعدادات الجهاز ومدير الحزم</string>
+
+    <string name="nav_hidden_notifications">الإشعارات المخفية</string>
+    <string name="hidden_notifications_title">سجل الإشعارات المخفية</string>
+    <string name="hidden_notifications_empty_title">لا توجد إشعارات مخفية حالياً</string>
+    <string name="hidden_notifications_empty_desc">عند وصول أي إشعار لتطبيق مقفل، سيتم حجبه فوراً وتخزينه بأمان في هذه الخزنة.</string>
+    <string name="hidden_notifications_clear_all">مسح جميع الإشعارات</string>
+    <string name="hidden_notifications_clear_confirm">هل أنت متأكد من رغبتك في حذف كافة سجلات الإشعارات المخفية نهائياً؟</string>
+    <string name="hidden_notifications_search_hint">بحث في الإشعارات المخفية...</string>
+
+    <string name="settings_section_advanced">خيارات متقدمة والحماية</string>
+    <string name="settings_auto_lock_new">قفل التطبيقات الجديدة تلقائياً</string>
+    <string name="settings_auto_lock_new_desc">قفل أي تطبيق يتم تثبيته حديثاً على الجهاز</string>
+    <string name="settings_anti_uninstall">الحماية من إلغاء التثبيت</string>
+    <string name="settings_anti_uninstall_desc">تفعيل مسؤول الجهاز Device Administrator لمنع الإلغاء العفوي</string>
+    <string name="settings_crash_screen">نمط شاشة الخطأ (Crash Screen)</string>
+    <string name="settings_crash_screen_desc">عرض نافذة توقف وهمية قبل شاشة القفل</string>
+    <string name="settings_intruder">كشف المتسللين والتقاط الصور</string>
+    <string name="settings_intruder_desc">تسجيل محاولات PIN الخاطئة والتقاط صورة بالكاميرا الأمامية</string>
+    <string name="settings_intruder_logs">سجل المتسللين (%1$d)</string>
+
+    <!-- Profiles -->
+    <string name="profiles_title">الملفات الشخصية للحماية</string>
+    <string name="profiles_desc">تخصيص مجموعات تطبيقات مقفلة لمختلف الأوقات والأماكن</string>
+    <string name="profile_home">🏠 المنزل</string>
+    <string name="profile_work">💼 العمل</string>
+    <string name="profile_study">📚 الدراسة</string>
+    <string name="profile_sleep">🌙 النوم</string>
+    <string name="profile_gaming">🎮 الألعاب</string>
+    <string name="action_create_profile">إنشاء ملف شخصي جديد</string>
+    <string name="action_edit_profile">تعديل الملف</string>
+    <string name="action_delete_profile">حذف الملف</string>
+    <string name="action_duplicate_profile">نسخ الملف</string>
+    <string name="action_add_shortcut">إضافة اختصار للشاشة الرئيسية</string>
+    <string name="shortcut_created_toast">تم إرسال طلب إضافة الاختصار إلى الشاشة الرئيسية</string>
+    <string name="shortcut_not_supported">مشغل الشاشة الرئيسية لا يدعم إنشاء الاختصارات</string>
+    <string name="profile_activated_toast">تم تفعيل ملف: %1$s بنجاح</string>
+    <string name="shortcut_activate_label">تفعيل ملف %1$s</string>
+    <string name="action_activate">تفعيل</string>
+    <string name="action_deactivate">تعطيل</string>
+    <string name="status_active">نشط</string>
+    <string name="status_inactive">غير نشط</string>
+
+    <!-- Schedules -->
+    <string name="schedules_title">جداول القفل التلقائي</string>
+    <string name="schedules_desc">تشغيل وإيقاف القفل أو تفعيل الملفات الشخصية حسب الوقت واليوم</string>
+    <string name="action_add_schedule">إضافة جدول جديد</string>
+    <string name="schedule_every_day">كل يوم</string>
+    <string name="schedule_weekdays">أيام العمل (الأحد - الخميس)</string>
+    <string name="schedule_weekend">عطلة نهاية الأسبوع (الجمعة - السبت)</string>
+    <string name="schedule_custom_days">أيام مخصصة</string>
+    <string name="schedule_overnight_badge">ليلي (عبر منتصف الليل)</string>
+
+    <!-- Diagnostics & Self Test -->
+    <string name="diagnostics_title">تشخيص النظام وحالة المحرك</string>
+    <string name="self_test_title">الفحص الذاتي الشامل (Self Test)</string>
+    <string name="run_self_test">تشغيل الفحص الشامل</string>
+    <string name="test_result_pass">ناجح (PASS)</string>
+    <string name="test_result_fail">فشل (FAIL)</string>
+
+    <!-- Common Dialogs / Actions -->
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="confirm">تأكيد</string>
+    <string name="enable">تفعيل</string>
+    <string name="permission_required">الصلاحية مطلوبة</string>
+    <string name="permission_accessibility_prompt">يرجى تفعيل حارس التطبيقات من قائمة إمكانية الوصول ليعمل القفل بشكل فوري.</string>
+    <string name="permission_usage_prompt">يرجى منح صلاحية الوصول إلى بيانات الاستخدام كقناة كشف مساعدة.</string>
+    <string name="permission_overlay_prompt">يرجى تفعيل صلاحية الظهور فوق التطبيقات الأخرى لعرض شاشة القفل.</string>
+    <string name="open_settings">فتح الإعدادات</string>
+</resources>

@@ -1,0 +1,30 @@
+workflows:
+  app-guard-android-flutter:
+    name: App Guard Android + Flutter
+    max_build_duration: 60
+    instance_type: linux_x2
+    environment:
+      java: 21
+      flutter: stable
+      vars:
+        FLUTTER_HOST_ENABLED: "true"
+    scripts:
+      - name: Check toolchain
+        script: |
+          flutter --version
+          flutter doctor -v
+          java -version
+      - name: Prepare Flutter module
+        script: bash tools/prepare_flutter_phase4.sh
+      - name: Resolve Flutter packages
+        script: cd flutter_module && flutter pub get
+      - name: Analyze Flutter UI
+        script: cd flutter_module && flutter analyze
+      - name: Test Flutter UI
+        script: cd flutter_module && flutter test
+      - name: Build Android debug APK
+        script: bash ./gradlew --no-daemon --stacktrace -PenableFlutterHost=true :app:assembleDebug
+    artifacts:
+      - app/build/outputs/apk/debug/*.apk
+      - app/build/reports/**
+      - app/build/test-results/**

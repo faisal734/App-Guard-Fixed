@@ -1,0 +1,6 @@
+{
+  "name": "App Guard — حارس التطبيقات",
+  "description": "تطبيق قفل التطبيقات الاحترافي وحماية الخصوصية من تطوير م/ فيصل العفيف",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
